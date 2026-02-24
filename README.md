@@ -1,31 +1,29 @@
-
-🔐 Kali MCP Tools API Server
-
-(Podman + tmux + Codex Integration)
+# 🔐 Kali MCP Tools API Server  
+## (Podman + tmux + Codex Integration)
 
 A containerized Kali Linux environment exposing security tooling via an MCP-compatible API, designed for controlled AI-agent interaction (Codex / LLM integrations).
 
-⸻
+---
 
-📌 Architecture Overview
+## 📌 Architecture Overview
 
 Codex / AI Agent
-        ↓
+↓
 MCP Client (Host)
-        ↓ HTTP (127.0.0.1:5000)
+↓ HTTP (127.0.0.1:5000)
 Kali MCP Server (Podman Container)
-        ↓
+↓
 Kali Security Tools
 
+---
 
-⸻
+# 🚀 Setup Guide
 
-🚀 Setup Guide
+---
 
-⸻
+## 1️⃣ Run Kali Container (Podman)
 
-1️⃣ Run Kali Container (Podman)
-
+```bash
 podman run -dit \
   --name kali \
   --hostname kali-mcp \
@@ -162,7 +160,7 @@ pwd
 
 ⚠️ This project exposes offensive security tooling via API. Use only in authorized lab environments.
 
-Recommended hardening:
+Recommended Hardening
 	•	Avoid --privileged
 	•	Bind to 127.0.0.1 in production
 	•	Add:
@@ -201,4 +199,3 @@ For:
 
 Unauthorized use against systems without explicit permission is illegal.
 
-⸻
