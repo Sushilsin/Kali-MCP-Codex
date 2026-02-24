@@ -1,8 +1,3 @@
-Here is the updated GitHub README.md including installation of tmux and instructions to run the MCP server inside a tmux session (recommended for long-running processes inside containers).
-
-You can directly replace your existing README with this.
-
-⸻
 
 🔐 Kali MCP Tools API Server
 
