@@ -48,7 +48,7 @@ apt full-upgrade -y
 
 Install required tools:
 
-apt install -y kali-linux-headless python3 python3-pip tmux
+apt install -y kali-linux-headless python3 python3-pip tmux mcp-kali-server
 
 
 ⸻
